@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>winLogin</class>
+ <widget class="QMainWindow" name="winLogin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>227</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CLIENT TRACING PROGRAM</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="C:\Users\baris\Desktop\Projects\Balkan_Travel_Py\Icons\balkan-travel-logo.ico">
+    <normaloff>../../Balkan_Travel_Py/Icons/balkan-travel-logo.ico</normaloff>../../Balkan_Travel_Py/Icons/balkan-travel-logo.ico</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblPassword">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>82</y>
+      <width>125</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Şifre :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblUsername">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>50</y>
+      <width>125</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Kullanıcı Adı :</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtUsername">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>48</y>
+      <width>263</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPassword">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>80</y>
+      <width>263</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnLogin">
+    <property name="geometry">
+     <rect>
+      <x>186</x>
+      <y>128</y>
+      <width>151</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Giriş</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Balkan_Travel_Py/Balkan_Travel/iconlar/Check_24.png</normaloff>../../Balkan_Travel_Py/Balkan_Travel/iconlar/Check_24.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>24</width>
+      <height>24</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cbLanguage">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>194</y>
+      <width>91</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Verdana</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="editable">
+     <bool>false</bool>
+    </property>
+    <property name="currentText">
+     <string>English</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>English</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Türkçe</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
